@@ -7,7 +7,6 @@ import com.practice.pojo.Cat;
 public class CatArrayListPractice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ArrayList<Cat> array = new ArrayList<Cat>();
 		
 		Cat c = new Cat();
