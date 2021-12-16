@@ -6,7 +6,7 @@ public class Dog {
 	private String color;
 	private int age;
 	
-public Dog() {	
+	public Dog() {	
 	}
 	public Dog(String name) {
 		super();
