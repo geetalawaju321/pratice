@@ -9,35 +9,34 @@ public class CatHashMapPractice {
 	public static void main(String[] args) {
 		HashMap<String,Cat> map =  new HashMap<String,Cat>();
 		
-		Cat c = new Cat();
-		c.setName("Kitty");
-		c.setColor("Grey");
-		c.setGender("Female");
-		c.setAge(1);
+		Cat catOne = new Cat();
+		catOne.setName("Kitty");
+		catOne.setColor("Grey");
+		catOne.setGender("Female");
+		catOne.setAge(1);
 		
-		map.put(c.getName() ,c);
+		map.put(catOne.getName() ,catOne);
 	
-		Cat ca = new Cat("Jim", "Black", "Male", 2);
-		
-		map.put(ca.getName(), ca);
+		Cat catTwo = new Cat("Jim", "Black", "Male", 2);
+		map.put(catTwo.getName(), catTwo);
 
 
-		Cat b = new Cat("Zen", "White", "Female", 3);
-		map.put(b.getName(), b);
+		Cat catThree = new Cat("Zen", "White", "Female", 3);
+		map.put(catThree.getName(), catThree);
 		
 
-		Cat a = new Cat("Min", "Brown", "Male", 4);
-		map.put(a.getName(), a);
+		Cat catFour = new Cat("Min", "Brown", "Male", 4);
+		map.put(catFour.getName(), catFour);
 		
-		Cat t = new Cat("Bin", "White and Black", "Female", 3);
-		map.put(t.getName(), t);
+		Cat catFive = new Cat("Bin", "White and Black", "Female", 3);
+		map.put(catFive.getName(), catFive);
 	
 
 		
 		for (Cat eachcat : map.values()){
 			System.out.println( "Cat:" + eachcat.getName() + "," + eachcat.getGender() + "," + eachcat.getColor() + "," + eachcat.getAge());
 		}
-		map.remove(ca.getName(), ca);
+		map.remove(catTwo.getName(), catTwo);
 		for (Cat eachcat : map.values()){
 			System.out.println( "Cat:" + eachcat.getName() + "," + eachcat.getGender() + "," + eachcat.getColor() + "," + eachcat.getAge());
 		}
