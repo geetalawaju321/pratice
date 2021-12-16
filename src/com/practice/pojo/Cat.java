@@ -89,6 +89,11 @@ public class Cat {
 	public Cat() {
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Cat [name=" + name + ", color=" + color + ", gender=" + gender + ", age=" + age + "]";
+	}
 	
 
 	//public Cat(String name) {
