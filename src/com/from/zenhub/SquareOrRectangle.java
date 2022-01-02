@@ -17,9 +17,7 @@ public class SquareOrRectangle {
 		
 		if(length==breadth){
 			System.out.println("The geometry shape is Square.");
-			
-		}
-		else {
+		}else {
 			System.out.println("The geometry shape is Rectangle.");
 		}
 		int a = length*breadth;
@@ -27,5 +25,4 @@ public class SquareOrRectangle {
 		
 		System.out.println("The area of geometry shape is:" + a + " and the perimeter of the square is: " + p);	
 	}
-
 }
