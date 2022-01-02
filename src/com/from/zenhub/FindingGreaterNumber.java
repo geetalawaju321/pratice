@@ -15,11 +15,8 @@ public class FindingGreaterNumber {
 		
 		if(num1>num2){
 			System.out.println("num1 is greater than num2 by " + (num1 - num2) + " point");
-		}
-		else{
+		}else{
 			System.out.println("num1 is smaller than num2 by " + (num2 - num1) + " point");
 		}
 	}
-	
-
 }
