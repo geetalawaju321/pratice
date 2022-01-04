@@ -11,7 +11,7 @@ public class IfStudentIsPassOrFail {
 		
 		if (x >= 40){
 			System.out.println("Congratulations, You are Pass.");
-		}else if (x <= 40){
+		}else if (x < 40){
 			System.out.println("You are Fail.Better luck next time.");
 		}
 		scanner.close();
