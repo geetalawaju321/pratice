@@ -11,15 +11,15 @@ public class FindingGradeOfStudent {
 		
 		if (x >= 90){
 			System.out.println("You have scored Grade A*.");
-		}else if (x>= 80){
+		}else if (x >= 80){
 			System.out.println("You have scored Grade A.");
-		}else if (x>= 70){
+		}else if (x >= 70){
 			System.out.println("You have scored Grade B.");
-		}else if (x>=60 ){
+		}else if (x >= 60){
 			System.out.println("You have scored Grade C");
-		}else if (x>=50 ){
+		}else if (x >= 50){
 			System.out.println("You have scored Grade E.");
-		}else if (x<50){
+		}else if (x < 50){
 			System.out.println("You have scored Grade F.");
 		}
 	}
