@@ -2,7 +2,7 @@ package com.from.zenhub;
 
 import java.util.Scanner;
 
-public class DivisibleBy5 {
+public class DivisibleByFive {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -14,5 +14,6 @@ public class DivisibleBy5 {
 		}else {
 			System.out.println(x + " is not exactly divisible by 5");
 		}
+		scanner.close();
 	}
 }
