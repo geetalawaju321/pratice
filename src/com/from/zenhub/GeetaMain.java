@@ -25,5 +25,4 @@ public class GeetaMain {
 		System.out.println("The smaller of " + n1 + " and " + n2 + " is " + smaller);
 		System.out.println("The absolute of difference between " + n1 + " and " + n2 + " is " + absolute);
 	}
-
 }
